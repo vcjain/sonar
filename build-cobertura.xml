@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="cobertura" default="coverage" basedir="." xmlns:cobertura="antlib:net.sourceforge.cobertura.ant">
+	<description>
+		Cobertura - http://cobertura.sourceforge.net/
+		The copyright for this program is retained by its contributors
+		See the included COPYRIGHT file for a complete list of contributors
+		Cobertura is licensed under the GNU General Public License
+		Cobertura comes with ABSOLUTELY NO WARRANTY
+	</description>
+	
+	<!-- Loading property File-->
+	<property file="tasks.properties" />
+
+	<!-- Setting up classpath-->
+	<path id="cobertura.classpath">
+		<fileset dir="${cobertura.dir}">
+			<include name="cobertura-2.0.3.jar" />
+			<include name="lib/**/*.jar" />
+		</fileset>
+		<fileset dir=".">
+			<include name="Tranquil-1.0-jar-with-dependencies.jar" />
+		</fileset>
+	</path>
+	<taskdef classpathref="cobertura.classpath" resource="tasks.properties" />
+
+	<target name="clean">
+		<delete dir="${build}"/>
+		<delete dir="${reports}"/>
+		<delete dir="${instrumented}"/>
+		<delete file="cobertura.log"/>
+		<delete file="cobertura.ser"/>
+	</target>
+
+	<target name="init" >
+		<mkdir dir="${build}"/>
+		<mkdir dir="${reports}"/>
+		<mkdir dir="${reports}/raw/"/>
+		<mkdir dir="${reports}/html/"/>
+		<mkdir dir="${reports}/cobertura-html/"/>
+		<mkdir dir="${instrumented}"/>
+	</target>
+
+	<target name="instrument" depends="clean, init">
+		<cobertura-instrument todir="instrumentdir">
+			<ignore regex="org.apache.log4j.*" />
+			<!--
+			<fileset dir="${classes.dir}">
+				<include name="**/*.class" />
+				<exclude name="**/*Test.class" />
+			</fileset>
+			<fileset dir="${guiclasses.dir}">
+				<include name="**/*.class" />
+				<exclude name="**/*Test.class" />
+			</fileset>
+			-->
+			<fileset dir="lib">
+				<include name="Tranquil-1.0-jar-with-dependencies.jar" />
+			</fileset>
+		</cobertura-instrument>
+	</target>
+</project>
