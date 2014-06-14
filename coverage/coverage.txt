@@ -1,9 +1,9 @@
-[EMMA v2.1.5320 (stable) report, generated Sat Jun 14 10:46:25 IST 2014]
+[EMMA v2.1.5320 (stable) report, generated Sat Jun 14 10:50:40 IST 2014]
 -------------------------------------------------------------------------------
 OVERALL COVERAGE SUMMARY:
 
 [class, %]	[method, %]	[block, %]	[line, %]	[name]
-100% (5/5)	72%  (13/18)	86%  (122/142)	88%  (36/41)	all classes
+100% (5/5)	72%  (13/18)	86%  (124/144)	88%  (37/42)	all classes
 
 OVERALL STATS SUMMARY:
 
@@ -11,13 +11,13 @@ total packages:	3
 total classes:	5
 total methods:	18
 total executable files:	5
-total executable lines:	41
+total executable lines:	42
 
 COVERAGE BREAKDOWN BY PACKAGE:
 
 [class, %]	[method, %]	[block, %]	[line, %]	[name]
 100% (1/1)	60%  (3/5)!	58%  (11/19)!	67%  (4/6)!	com.vcjain.sonardemo.number
-100% (1/1)	75%  (3/4)	73%  (11/15)!	75%  (3/4)!	com.vcjain.sonardemo.string
+100% (1/1)	75%  (3/4)	76%  (13/17)!	80%  (4/5)	com.vcjain.sonardemo.string
 100% (3/3)	78%  (7/9)	93%  (100/108)	94%  (29/31)	com.vcjain.sonardemo
 -------------------------------------------------------------------------------
 COVERAGE SUMMARY FOR PACKAGE [com.vcjain.sonardemo.number]:
@@ -33,12 +33,12 @@ COVERAGE BREAKDOWN BY SOURCE FILE:
 COVERAGE SUMMARY FOR PACKAGE [com.vcjain.sonardemo.string]:
 
 [class, %]	[method, %]	[block, %]	[line, %]	[name]
-100% (1/1)	75%  (3/4)	73%  (11/15)!	75%  (3/4)!	com.vcjain.sonardemo.string
+100% (1/1)	75%  (3/4)	76%  (13/17)!	80%  (4/5)	com.vcjain.sonardemo.string
 
 COVERAGE BREAKDOWN BY SOURCE FILE:
 
 [class, %]	[method, %]	[block, %]	[line, %]	[name]
-100% (1/1)	75%  (3/4)	73%  (11/15)!	75%  (3/4)!	Text.java
+100% (1/1)	75%  (3/4)	76%  (13/17)!	80%  (4/5)	Text.java
 -------------------------------------------------------------------------------
 COVERAGE SUMMARY FOR PACKAGE [com.vcjain.sonardemo]:
 

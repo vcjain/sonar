@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.1.5320 (stable) report, generated Sat Jun 14 10:46:25 IST 2014 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.1.5320 (stable) report, generated Sat Jun 14 10:50:40 IST 2014 -->
 
 <report>
   <stats>
@@ -6,14 +6,14 @@
     <classes value="5"/>
     <methods value="18"/>
     <srcfiles value="5"/>
-    <srclines value="41"/>
+    <srclines value="42"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="100% (5/5)"/>
       <coverage type="method, %" value="72%  (13/18)"/>
-      <coverage type="block, %" value="86%  (122/142)"/>
-      <coverage type="line, %" value="88%  (36/41)"/>
+      <coverage type="block, %" value="86%  (124/144)"/>
+      <coverage type="line, %" value="88%  (37/42)"/>
 
       <package name="com.vcjain.sonardemo.number">
         <coverage type="class, %" value="100% (1/1)"/>
@@ -24,8 +24,8 @@
       <package name="com.vcjain.sonardemo.string">
         <coverage type="class, %" value="100% (1/1)"/>
         <coverage type="method, %" value="75%  (3/4)"/>
-        <coverage type="block, %" value="73%  (11/15)"/>
-        <coverage type="line, %" value="75%  (3/4)"/>
+        <coverage type="block, %" value="76%  (13/17)"/>
+        <coverage type="line, %" value="80%  (4/5)"/>
       </package>
       <package name="com.vcjain.sonardemo">
         <coverage type="class, %" value="100% (3/3)"/>
