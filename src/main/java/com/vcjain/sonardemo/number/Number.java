@@ -21,4 +21,7 @@ public class Number
 		return n2/n1;
 	}
     
+	public int subNumber(int n1, int n2){
+		return n2-n1;
+	}
 }

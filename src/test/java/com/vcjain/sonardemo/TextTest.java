@@ -25,5 +25,13 @@ public class TextTest extends TestCase{
 		String s2 = "Vikash";
 		assertEquals("HelloVikash", t.add(s1, s2));
 	}
+	
+	@Test
+	public void testSearch1() {
+		Text t = new Text();
+		String s1 = "Hello";
+		String s2 = "H";
+		assertEquals(0, t.search1(s1, s2));
+	}
 
 }

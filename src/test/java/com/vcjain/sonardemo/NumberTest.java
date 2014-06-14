@@ -45,4 +45,6 @@ public class NumberTest
     	int add = n.multiplyNumber(1, 2);
         assertEquals(add,2);
     }
+    
+    
 }

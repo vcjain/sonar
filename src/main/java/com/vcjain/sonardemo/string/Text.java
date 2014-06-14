@@ -17,4 +17,8 @@ public class Text {
 		return s1.indexOf(findStr);
 	}
 	
+	public int search1(String s1, String findStr){
+		return s1.indexOf(findStr);
+	}
+	
 }
