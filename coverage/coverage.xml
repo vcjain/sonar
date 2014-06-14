@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.1.5320 (stable) report, generated Sat Jun 14 10:36:25 IST 2014 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.1.5320 (stable) report, generated Sat Jun 14 10:46:25 IST 2014 -->
 
 <report>
   <stats>
     <packages value="3"/>
     <classes value="5"/>
-    <methods value="16"/>
+    <methods value="18"/>
     <srcfiles value="5"/>
-    <srclines value="35"/>
+    <srclines value="41"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="100% (5/5)"/>
-      <coverage type="method, %" value="69%  (11/16)"/>
-      <coverage type="block, %" value="84%  (103/123)"/>
-      <coverage type="line, %" value="86%  (30/35)"/>
+      <coverage type="method, %" value="72%  (13/18)"/>
+      <coverage type="block, %" value="86%  (122/142)"/>
+      <coverage type="line, %" value="88%  (36/41)"/>
 
       <package name="com.vcjain.sonardemo.number">
         <coverage type="class, %" value="100% (1/1)"/>
@@ -23,15 +23,15 @@
       </package>
       <package name="com.vcjain.sonardemo.string">
         <coverage type="class, %" value="100% (1/1)"/>
-        <coverage type="method, %" value="67%  (2/3)"/>
-        <coverage type="block, %" value="64%  (7/11)"/>
-        <coverage type="line, %" value="67%  (2/3)"/>
+        <coverage type="method, %" value="75%  (3/4)"/>
+        <coverage type="block, %" value="73%  (11/15)"/>
+        <coverage type="line, %" value="75%  (3/4)"/>
       </package>
       <package name="com.vcjain.sonardemo">
         <coverage type="class, %" value="100% (3/3)"/>
-        <coverage type="method, %" value="75%  (6/8)"/>
-        <coverage type="block, %" value="91%  (85/93)"/>
-        <coverage type="line, %" value="92%  (24/26)"/>
+        <coverage type="method, %" value="78%  (7/9)"/>
+        <coverage type="block, %" value="93%  (100/108)"/>
+        <coverage type="line, %" value="94%  (29/31)"/>
       </package>
     </all>
   </data>
